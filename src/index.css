@@ -1,0 +1,7 @@
+body {
+  background: linear-gradient(to bottom, white, rgb(253, 253, 176));
+  font-family: "Times New Roman", "serif";
+}
+p {
+  line-height: 1.5; 
+}
