@@ -17,6 +17,14 @@ const FooterContainer = styled.div`
     height: 100px;
     padding: 10px 0;
   }
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    flex-direction: column;
+    padding: 10px 0;
+  }
 `;
 
 const IconContainer = styled.div`
@@ -26,6 +34,13 @@ const IconContainer = styled.div`
   align-items: center;
 
   @media screen and (max-width: 550px) {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 768px) {
     width: 100%;
     flex-direction: column;
     align-items: center;
