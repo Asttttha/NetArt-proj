@@ -18,6 +18,9 @@ const NavDiv = styled.div`
     justify-content: start;
     align-items: center;
   }
+  @media screen and (max-width: 768px) {
+    height: 60px;
+  }
 `;
 const ImageDiv = styled.img`
   width: 300px;
@@ -26,6 +29,10 @@ const ImageDiv = styled.img`
   @media screen and (max-width: 400px) {
     width: 80%;
     height: auto;
+  }
+  @media screen and (max-width: 768px) {
+    width: 200px;
+    height: 60px;
   }
 `;
 
