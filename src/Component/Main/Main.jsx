@@ -15,6 +15,12 @@ const MainContainer = styled.div`
     text-align: center;
     border-bottom: 1px solid red;
   }
+
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: 1fr;
+    text-align: center;
+    border-bottom: 1px solid red;
+  }
 `;
 
 const Paragraph = styled.p`
@@ -49,6 +55,12 @@ const Image = styled.img`
   height: 100%;
 
   @media screen and (max-width: 550px) {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+
+  @media screen and (max-width: 1000px) {
     width: 100%;
     max-width: 500px;
     height: auto;
