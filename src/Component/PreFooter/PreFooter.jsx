@@ -8,6 +8,10 @@ const PreFooterDiv = styled.div`
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+
+  @media screen and (max-width: 768px) {
+    margin: 0;
+  }
 `;
 
 const TextDiv = styled.div`
@@ -18,6 +22,9 @@ const TextDiv = styled.div`
 
 const H5Tag = styled.h5`
   @media screen and (max-width: 550px) {
+    font-size: 9px;
+  }
+  @media screen and (max-width: 768px) {
     font-size: 9px;
   }
 `;
@@ -31,6 +38,12 @@ const Container = styled.div`
   font-weight: 600;
 
   @media screen and (max-width: 550px) {
+    justify-content: flex-start;
+    padding-left: 5px;
+    font-size: 7px;
+  }
+
+  @media screen and (max-width: 768px) {
     justify-content: flex-start;
     padding-left: 5px;
     font-size: 7px;
