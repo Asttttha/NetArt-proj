@@ -14,8 +14,10 @@ const MainDiv = styled.div`
   justify-content: space-evenly;
   align-items: center;
 
-  @media screen and (max-width: 1519px) {
-    margin: 5px 1px;
+  @media screen and (min-width: 769px) {
+    height: 50%;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
   @media screen and (max-width: 550px) {
@@ -33,7 +35,7 @@ const Div1 = styled.div`
   padding-right: 10px;
   margin-right: 60px;
 
-  @media screen and (max-width: 1519px) {
+  @media screen and (max-width: 768px) {
     width: 90%;
     padding-right: 5px;
     margin-right: 5px;
@@ -44,6 +46,11 @@ const Div1 = styled.div`
     margin-right: 0;
     margin-top: 12px;
     justify-content: center;
+
+    @media screen and (max-width: 1500px) and (min-width: 769px) {
+      width: 50%;
+      margin-right: 50px;
+    }
   }
 `;
 
@@ -56,12 +63,25 @@ const Div2 = styled.div`
   margin-right: 200px;
 
   @media screen and (max-width: 550px) {
-    width: 100%;
+    width: 90%;
     margin-right: 0;
     margin-left: 2px;
     align-items: center;
     justify-content: center;
     text-align: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    margin-right: 0;
+    margin-left: auto;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 1500px) and (min-width: 769px) {
+    width: 100%;
+    
+    padding-right: 0;
   }
 `;
 
@@ -69,12 +89,17 @@ const Image1 = styled.img`
   width: 500px;
   height: 100%;
 
-  @media screen and (max-width: 1519px) {
-    width: 500px;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    max-width: 400px;
   }
 
   @media screen and (max-width: 550px) {
     width: 50%;
+  }
+  @media screen and (max-width: 1500px) and (min-width: 769px) {
+    width: 90%;
+    
   }
 `;
 
@@ -82,12 +107,19 @@ const Image2 = styled.img`
   width: 700px;
   height: 100%;
 
-  @media screen and (max-width: 1519px) {
-    width: 800px;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    max-width: 500px;
   }
 
   @media screen and (max-width: 550px) {
     width: 100%;
+  }
+
+  @media screen and (max-width: 1500px) and (min-width: 769px) {
+    width: 80%;
+    margin-left: 2px;
+    
   }
 `;
 
