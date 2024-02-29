@@ -15,7 +15,7 @@ const NavDiv = styled.div`
   @media screen and (max-width: 400px) {
     width: 100%;
     height: 30px;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
   }
   @media screen and (max-width: 768px) {
