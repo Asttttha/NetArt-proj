@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 //styled components
 const NavDiv = styled.div`
-  margin: 20px;
+  margin: 18px 0;
   padding: 0;
   width: 100%;
   height: 80px;
