@@ -60,7 +60,7 @@ const Div2 = styled.div`
   display: grid;
   justify-content: start;
   align-items: center;
-  margin-right: 200px;
+  margin-right: 40px;
 
   @media screen and (max-width: 550px) {
     width: 90%;
